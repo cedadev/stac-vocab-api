@@ -1,0 +1,5 @@
+*.pyc
+.idea
+*.egg-info
+venv
+stac_vocab_api/owl/settings.py

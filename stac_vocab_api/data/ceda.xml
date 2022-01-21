@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://test.org/cmip6/AWI-ESM-2-1-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">AWI-ESM 2.1 LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AWI-ESM 2.1 LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/FIO-ESM-2-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">FIO-ESM 2.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">FIO-ESM 2.0</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CNRM-CM6-1-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CNRM-CM6-1-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CNRM-CM6-1-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NICAM16-8S">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NICAM16-8S</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NICAM.16 gl08-L38 with NSW6</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HiRAM-SIT-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HiRAM-SIT-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HiRAM Coupling 1-D SIT (25 km atmosphere and 25 km ocean)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CMCC-ESM2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CMCC-ESM2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CMCC-ESM2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E2-1-H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E2.1H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E2.1H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ICON-ESM-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ICON-ESM-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ICON-ESM-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3P-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3P-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3P-HR in PRIMAVERA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-CM4C192">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-CM4C192</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-CM4C192</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/ceda/model">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">model</skos:prefLabel>
+    <skos:narrower rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:narrower rdf:resource="http://test.org/cmip5/model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-Veg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-Veg</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-Veg</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CanESM5-CanOE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CanESM5-CanOE</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CanESM5-CanOE</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MIROC-ES2H-NB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MIROC-ES2H-NB</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MIROC-ES2H with No BiogenicCycle</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/source_id">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">source_id</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Source ID</skos:altLabel>
+    <skos:broader rdf:resource="http://test.org/ceda/model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM1-CAM5-SE-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM1-CAM5-SE-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM 1.3 CAM5 spectral element configuration with CMIP5 forcings, hi res</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/KIOST-ESM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">KIOST-ESM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">KIOST Earth System Model v2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/UKESM1-0-LL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">UKESM1.0-LL</skos:prefLabel>
+    <skos:altLabel xml:lang="en">UKESM1.0-N96ORCA1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E3-G">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E3-G</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E3-G</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ISM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">ISM</skos:prefLabel>
+    <skos:definition xml:lang="en">ice-sheet model that includes ice-flow</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/RAD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">RAD</skos:prefLabel>
+    <skos:definition xml:lang="en">radiation component of an atmospheric model run 'offline'</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM2-FV2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM2-FV2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM2-FV2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CAM-MPAS-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CAM-MPAS-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CAM MPAS (Community Atmosphere Model - Model for Prediction Across Scales)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MRI-ESM2-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MRI-ESM2.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MRI-ESM2.0</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-MH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-MH</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-MH (medium atmosphere-high ocean resolution, GHG concentration driven)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CNRM-CM6-1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CNRM-CM6-1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CNRM-CM6-1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ACCESS-OM2-025">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ACCESS-OM2-025</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Australian Community Climate and Earth System Simulator Ocean Model Version 2 quarter degree</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MRI-AGCM3-2-H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MRI-AGCM3-2-H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MRI-AGCM3-2-H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/LAND">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">LAND</skos:prefLabel>
+    <skos:definition xml:lang="en">land model run uncoupled from the atmosphere</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-GrIS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-GrIS</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-GrIS</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AGCM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">AGCM</skos:prefLabel>
+    <skos:definition xml:lang="en">atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ACCESS-ESM1-5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ACCESS-ESM1.5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Australian Community Climate and Earth System Simulator Earth System Model Version 1.5</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CAMS-CSM1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CAMS-CSM 1.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CAMS-CSM 1.0</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-GRTCODE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-GRTCODE</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL GPU radiative transfer code with two stream solver (March 2019)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ECMWF-IFS-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ECMWF-IFS-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ECMWF-IFS-HR (25 km atmosphere and 25 km ocean)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MPI-ESM-1-2-HAM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MPI-ESM1.2-HAM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MPI-ESM1.2-HAM</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-GLOBAL-LBL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-GLOBAL-LBL</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL Reference Forward Model Line-by-Line with DA/DISORT solver (March 2019)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CIESM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CIESM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Community Integrated Earth System Model</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM7A-ATM-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM7A-ATM-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM7A-ATM-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MIROC-ES2H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MIROC-ES2H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MIROC-ES2H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MPI-ESM1-2-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MPI-ESM1.2-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MPI-ESM1.2-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM1-F">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM1-F</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM1-F (a fast version of NorESM that is designed for paleo and multi-ensemble simulations)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AWI-CM-1-1-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">AWI-CM 1.1 HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AWI-CM 1.1 HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM1-WACCM-SC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM1-WACCM-SC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Community Earth System Model 1, with the Whole Atmosphere Community Climate Model and Specified Chemistry</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AER">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">AER</skos:prefLabel>
+    <skos:definition xml:lang="en">aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/KACE-1-0-G">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">KACE1.0-G</skos:prefLabel>
+    <skos:altLabel xml:lang="en">KACE1.0-GLOMAP</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/E3SM-1-1-ECA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">E3SM 1.1 ECA</skos:prefLabel>
+    <skos:altLabel xml:lang="en">E3SM 1.1 (Energy Exascale Earth System Model) with an experimental land BGC ECA configuration</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/RRTMG-SW-4-02">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">RRTMG-SW 4.02</skos:prefLabel>
+    <skos:altLabel xml:lang="en">RRTM for GCMs v4.02, shortwave</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-LME">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-LME</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-LME (low atmosphere-medium ocean resolution, GHG emission driven)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BESM-2-9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">BESM 2.9</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BESM 2.9</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-ESM2M">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-ESM2M</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-ESM2M</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MPI-ESM1-2-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MPI-ESM1.2-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MPI-ESM1.2-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-HH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-HH</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N512ORCA12</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EMAC-2-54-AerChem">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EMAC-2-54-AerChem</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EMAC-2-54-x-AerChem</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM1-1-CAM5-CMIP5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM1-1-CAM5-CMIP5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM1-1-CAM5-CMIP5</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ECMWF-IFS-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ECMWF-IFS-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ECMWF-IFS-LR (50 km atmosphere and 100 km ocean)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CHEM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">CHEM</skos:prefLabel>
+    <skos:definition xml:lang="en">chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NESM3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NESM v3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NUIST ESM v3</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HiRAM-SIT-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HiRAM-SIT-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HiRAM Coupling 1-D SIT (50 km atmosphere and 25 km ocean)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC Earth 3.3</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NICAM16-9D-L78">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NICAM16-9D-L78</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NICAM.16 gl09-L78 with NDW6</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AOGCM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">AOGCM</skos:prefLabel>
+    <skos:definition xml:lang="en">coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-MH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-MH</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N216ORCA12</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BNU-ESM-1-1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">BNU-ESM 1.1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BNU-ESM 1.1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E2-1-G">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E2.1G</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E2.1G</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-MM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-MM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N216ORCA025</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/E3SM-1-1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">E3SM 1.1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">E3SM 1.1 (Energy Exascale Earth System Model)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM6A-ATM-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM6A-ATM-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM6A-ATM-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/UKESM1-0-MMh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">UKESM1.0-MMh</skos:prefLabel>
+    <skos:altLabel xml:lang="en">UKESM1.0-N216ORCA025hybrid</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ECMWF-IFS-MR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ECMWF-IFS-MR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ECMWF-IFS-MR (50 km atmosphere and 25 km ocean)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM7A-ATM-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM7A-ATM-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM7A-ATM-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BCC-ESM1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">BCC-ESM 1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BCC-ESM 1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-LMEC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-LMEC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-LMEC (low atmosphere-medium ocean resolution, GHG emission driven, complex atmospheric chemistry)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-LM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-LM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N96ORCA025</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AWI-CM-1-1-MR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">AWI-CM 1.1 MR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AWI-CM 1.1 MR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM2-WACCM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM2-WACCM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM2-WACCM</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NICAM16-7S">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NICAM16-7S</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NICAM.16 gl07-L38 with NSW6</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/UKESM1-ice-LL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">UKESM1.ice-LL</skos:prefLabel>
+    <skos:altLabel xml:lang="en">UKESM1.ice-N96ORCA1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/INM-CM5-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">INM-CM5-0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">INM-CM5-0</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CAS-ESM2-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CAS-ESM 2.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CAS-ESM 2.0 (Chinese Academy of Sciences Earth System Model version 2.0)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CSIRO-Mk3L-1-3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CSIRO Mk3L 1.3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CSIRO Mk3L 1.3</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CNRM-ESM2-1-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CNRM-ESM2-1-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CNRM-ESM2-1-HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E2-1-G-CC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E2-1-G-CC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E2-1-G-CC</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ACCESS-CM2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ACCESS-CM2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Australian Community Climate and Earth System Simulator Climate Model Version 2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BGC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">BGC</skos:prefLabel>
+    <skos:definition xml:lang="en">biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CMCC-CM2-HR4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CMCC-CM2-HR4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CMCC-CM2-HR4</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM6A-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM6A-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM6A-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/4AOP-v1-5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">4AOP-v1-5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Line-By-Line Radiative Transfer Model v1.5, Laboratoire Meteorologie Dynamique, GEISA spectroscopic database</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/FGOALS-g3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">FGOALS-g3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">FGOALS-g3</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/FGOALS-f3-H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">FGOALS-f3-H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">FGOALS-f3-H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/OGCM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">OGCM</skos:prefLabel>
+    <skos:definition xml:lang="en">ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MRI-AGCM3-2-S">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MRI-AGCM3-2-S</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MRI-AGCM3-2-S</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM6A-LR-INCA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM6A-LR-INCA</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM6A-LR-INCA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-CM4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-CM4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-CM4</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/VRESM-1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">VRESM 1.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">VRESM 1.0 (Variable-resolution Earth System Model 1.0)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-ESM4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-ESM4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-ESM4</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CAM-MPAS-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CAM-MPAS-HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CAM MPAS (Community Atmosphere Model - Model for Prediction Across Scales)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-AM4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-AM4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-AM4</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ARTS-2-3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ARTS 2.3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ARTS 2.3 (Current development version of the Atmospheric Radiative Transfer Simulator)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorCPM1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorCPM1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Norwegian Climate Prediction Model version 1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CanESM5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CanESM5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CanESM5</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-RFM-DISORT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-RFM-DISORT</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL Reference Forward Model Line-by-Line with DISORT solver (March 2019)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM2-WACCM-FV2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM2-WACCM-FV2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM2-WACCM-FV2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/source_type">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">source_type</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Source Type</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/FGOALS-f3-L">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">FGOALS-f3-L</skos:prefLabel>
+    <skos:altLabel xml:lang="en">FGOALS-f3-L</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MIROC-ES2L">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MIROC-ES2L</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MIROC-ES2L</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-HH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-HH</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-HH (high atmosphere-high ocean resolution, GHG concentration driven)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/SAM0-UNICON">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">SAM0-UNICON</skos:prefLabel>
+    <skos:altLabel xml:lang="en">SAM0-UNICON (SNU Atmosphere Model version 0 with Unified Convection Scheme)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AWI-CM-1-1-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">AWI-CM 1.1 LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AWI-CM 1.1 LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3P">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3P</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth 3.2 in PRIMAVERA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/INM-CM4-8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">INM-CM4-8</skos:prefLabel>
+    <skos:altLabel xml:lang="en">INM-CM4-8</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/LBLRTM-12-8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">LBLRTM 12.8</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Line-By-Line Radiative Transfer Model v12.8, aer_v_3.6, MT_CKD_3.2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-LM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-LM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-LM (low atmosphere-medium ocean resolution, GHG concentration driven)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-CC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-CC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-CC</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CNRM-ESM2-1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CNRM-ESM2-1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CNRM-ESM2-1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NorESM2-MM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NorESM2-MM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NorESM2-MM (medium atmosphere-medium ocean resolution, GHG concentration driven)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MCM-UA-1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MCM-UA-1-0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Manabe Climate Model v1.0 - University of Arizona</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/SLAB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_type"/>
+    <skos:prefLabel xml:lang="en">SLAB</skos:prefLabel>
+    <skos:definition xml:lang="en">slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E2-2-H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E2.2H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E2.2H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/ACCESS-OM2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">ACCESS-OM2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Australian Community Climate and Earth System Simulator Ocean Model Version 2</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MIROC6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MIROC6</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MIROC6</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CMCC-CM2-SR5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CMCC-CM2-SR5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CMCC-CM2-SR5</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-HM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-HM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N512ORCA025</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM5A2-INCA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM5A2-INCA</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM5A2-INCA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/UofT-CCSM4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">UofT-CCSM4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">The NCAR CCSM4 model with the ocean component run in a non-default configuration (the University of Toronto configuration) where tidal mixing and overflow parametrizations are turned off. The vertical profile of ocean diapycnal diffusivity is fixed to the POP1 profile used in CCSM3. See Peltier and Vettoretti, 2014 GRL (https://doi.org/10.1002/2014GL061413), Chandan and Peltier, 2017 Clim. Past. (https://doi.org/10.5194/cp-13-919-2017)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/PCMDI-test-1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">PCMDI-test 1.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">PCMDI-test 1.0 (This entry is free text for users to contribute verbose information)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3P-VHR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3P-VHR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3P-VHR in PRIMAVERA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BCC-CSM2-MR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">BCC-CSM 2 MR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BCC-CSM 2 MR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM1-CAM5-SE-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM1-CAM5-SE-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM 1.3 CAM5 spectral element configuration with CMIP5 forcings, lo res</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CESM2-SE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CESM2-SE</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CESM2-SE spectral element (cubed-sphere grid)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GFDL-OM4p5B">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GFDL-OM4p5B</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GFDL-OM4p5B</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/HadGEM3-GC31-LL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">HadGEM3-GC31-LL</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HadGEM3-GC3.1-N96ORCA1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IITM-ESM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IITM-ESM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IITM-ESM</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/NICAM16-9S">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">NICAM16-9S</skos:prefLabel>
+    <skos:altLabel xml:lang="en">NICAM.16 gl09-L38 with NSW6</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/E3SM-1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">E3SM 1.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">E3SM 1.0 (Energy Exascale Earth System Model)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/TaiESM1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">TaiESM 1.0</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Taiwan Earth System Model 1.0</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/CMCC-CM2-VHR4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">CMCC-CM2-VHR4</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CMCC-CM2-VHR4</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip5/model">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">model</skos:prefLabel>
+    <skos:altLabel xml:lang="en">model</skos:altLabel>
+    <skos:broader rdf:resource="http://test.org/ceda/model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM6A-MR025">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM6A-MR025</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM6A-MR025</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/INM-CM5-H">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">INM-CM5-H</skos:prefLabel>
+    <skos:altLabel xml:lang="en">INM-CM5-H</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/RTE-RRTMGP-181204">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">RTE+RRTMGP (2018-12-04 full-resolution)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Radiative Transfer for Energetics using RRTM for GCM applications - Parallel (2018-12-04 full-resolution)</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-AerChem">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-AerChem</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-AerChem</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/IPSL-CM6A-MR1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">IPSL-CM6A-MR1</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPSL-CM6A-MR1</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/AWI-ESM-1-1-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">AWI-ESM 1.1 LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AWI-ESM 1.1 LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/GISS-E2-2-G">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">GISS-E2-2-G</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GISS-E2-2-G</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EMAC-2-53-Vol">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EMAC-2-53-Vol</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EMAC-2-53-x-Vol</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/MPI-ESM1-2-XR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">MPI-ESM1.2-XR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">MPI-ESM1.2-XR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/RRTMG-LW-4-91">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">RRTMG-LW 4.91</skos:prefLabel>
+    <skos:altLabel xml:lang="en">RRTM for GCMs v4.91, longwave</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/BCC-CSM2-HR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">BCC-CSM 2 HR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BCC-CSM 2 HR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/EC-Earth3-Veg-LR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">EC-Earth3-Veg-LR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EC-Earth3-Veg-LR</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/cmip6/TaiESM1-TIMCOM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://test.org/cmip6/source_id"/>
+    <skos:prefLabel xml:lang="en">TaiESM1-TIMCOM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Taiwan Earth System Model 1.0 using TIMCOM ocean model</skos:altLabel>
+  </rdf:Description>
+</rdf:RDF>

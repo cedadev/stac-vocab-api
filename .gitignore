@@ -2,4 +2,5 @@
 .idea
 *.egg-info
 venv
-stac_vocab_api/owl/settings.py
+config.py
+cache/

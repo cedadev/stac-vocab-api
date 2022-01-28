@@ -31,7 +31,6 @@ setup(
     install_requires=[
         'attrs',
         'fastapi',
-        'stac-vocab-api.api',
     ],
     extras_require={
         'server': ["uvicorn[standard]>=0.12.0,<0.14.0"],

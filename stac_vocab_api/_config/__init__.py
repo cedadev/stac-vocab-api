@@ -16,5 +16,5 @@ DEBUG = False
 APP_DIR = path.dirname(path.dirname(path.realpath(__file__)))
 LOGFILE = path.join(APP_DIR, "cache", "stac_vocab_api.log")
 CACHE_FILE = path.join(APP_DIR, "cache", "GRAPH.p")
-CEDA_VOCAB_LOCATION = path.join(APP_DIR, "data", "ceda.xml")
+CEDA_VOCAB_LOCATION = os.environ.get("CEDA_VOCAB_LOCATION")
 CACHE_HOURS = 1

@@ -1,7 +1,10 @@
+from collections import defaultdict
 import logging
 import os
 import pickle
 import time
+
+from pydantic import BaseModel
 from rdflib import Graph, SKOS, RDF, URIRef
 from . import _config as config
 
@@ -119,8 +122,10 @@ def sparql_query(query: str, reload: bool = False) -> dict:
     try:
         sparql_result = graph.query(query)
 
+        response = {}
+
         if len(sparql_result) != 0 and sparql_result.bindings[0] != {}:
-            response = {"success": True}
+            response = {"error": False, "result": []}
 
             if len(sparql_result) == 1:
                 uris = [sparql_result.bindings[0]["uri"]]
@@ -131,20 +136,20 @@ def sparql_query(query: str, reload: bool = False) -> dict:
 
             if rdf_type == SKOS.Concept:
                 for uri in uris:
-                    response.setdefault("concept_schemes", []).append(_get_concept_info(graph, uri))
+                    response["result"].append(_get_concept_info(graph, uri))
                 
             elif rdf_type == SKOS.ConceptScheme:
                 for uri in uris:
-                    response.setdefault("concept_schemes", []).append(_get_concept_scheme_info(graph, uri))
+                    response["result"].append(_get_concept_scheme_info(graph, uri))
 
         else:
-            response = {"success": True, "result": None}
+            response = {"error": False, "result": None}
 
         return response
 
     except Exception as e:
         response = {
-            "success": False,
+            "error": True,
             "error_reason": f"SPARQL query failed: {e}"
         }
 
@@ -162,22 +167,19 @@ def get_info_from_uri(graph: Graph, uri: URIRef) -> dict:
     """
     response = {"uri": uri}
 
-    pref_label = graph.value(uri, SKOS.prefLabel)
-    if pref_label:
+    if pref_label := graph.value(uri, SKOS.prefLabel):
         response["pref_label"] = pref_label
     
-    alt_label = graph.value(uri, SKOS.altLabel)
-    if alt_label:
+    if alt_label := graph.value(uri, SKOS.altLabel):
         response["alt_label"] = alt_label
 
-    definition = graph.value(uri, SKOS.definition)
-    if definition:
+    if definition := graph.value(uri, SKOS.definition):
         response["definition"] = definition
     
     return response
 
 
-def get_concept(uri: str, reload: bool = False) -> dict:
+def get_concept_from_uri(uri: str, reload: bool = False) -> dict:
     """
     Get a concept from its URI.
 
@@ -198,20 +200,20 @@ def get_concept(uri: str, reload: bool = False) -> dict:
 
         if result:
             response = {
-                "success": True,
+                "error": False,
                 "result": result
             }
         else:
             response = {
-                "success": False,
-                "error_reason": f"No concept exist for uri: {uri}"
+                "error": False,
+                "result": None
             }
 
         return response
 
     except Exception as e:
         return {
-                "success": False,
+                "error": True,
                 "error_reason": f"Concept return failed: {e}"
             }
 
@@ -254,20 +256,20 @@ def get_concept_scheme(uri: str, reload: bool = False) -> dict:
 
         if result:
             response = {
-                "success": True,
+                "error": False,
                 "result": result
             }
         else:
             response = {
-                "success": False,
-                "error_reason": f"No concept scheme exist for uri: {uri}"
+                "error": False,
+                "result": None
             }
 
         return response
 
     except Exception as e:
         return {
-                "success": False,
+                "error": True,
                 "error_reason": f"Concept scheme return failed: {e}"
             }
 
@@ -315,7 +317,7 @@ def get_concept_scheme_concepts(uri: str, reload: bool = False) -> dict:
 
         if result:
             response = {
-                "success": True,
+                "error": False,
                 "result": result
             }
             if concepts := graph.triples((None, SKOS.inScheme, uri)):
@@ -324,7 +326,7 @@ def get_concept_scheme_concepts(uri: str, reload: bool = False) -> dict:
                     response["result"]["concepts"].append(get_info_from_uri(graph, concept))
         else:
             response = {
-                "success": False,
+                "error": True,
                 "error_reason": f"No concept scheme exist for uri: {uri}"
             }
 
@@ -332,6 +334,118 @@ def get_concept_scheme_concepts(uri: str, reload: bool = False) -> dict:
 
     except Exception as e:
         return {
-                "success": False,
+                "error": True,
                 "error_reason": f"Concept scheme concepts return failed: {e}"
             }
+
+
+class IndexerRequest(BaseModel):
+    namespace: str
+    terms: list[str]
+    properties: dict
+    strict: bool
+
+def indexer_strict(request: IndexerRequest) -> dict:
+
+    vocab_properties = defaultdict(dict)
+
+    for term, value in request.properties.items():
+
+        if term in request.terms:
+            query = f"""
+                SELECT ?uri
+                WHERE {{
+                    {{
+                        ?uri rdf:type skos:Concept .
+                        FILTER (STR(?uri) = "{request.namespace}/{value}")
+                    }}
+                }}
+            """
+
+            # PREF_LABEL QUERY
+            # query = f"""
+            #     SELECT ?uri
+            #     WHERE {{
+            #         {{
+            #             ?uri rdf:type skos:Concept ;
+            #             skos:prefLabel "{value}"@en .
+            #         }}
+            #     }}
+            # """
+
+            query_result = sparql_query(query)
+
+            print(query_result)
+
+            if result := query_result["result"]:
+
+                concept = result[0]
+
+                # Check if the concept is in a scheme could use pref_label? concept["in_scheme"]["pref_label"].value
+                if "in_scheme" in concept and term == concept["in_scheme"]["uri"].removeprefix(f"{request.namespace}/"):
+
+                    concept_scheme = concept["in_scheme"]
+                    vocab_properties[request.namespace] |= {term: value}
+
+                    # Check if the concept scheme has a general scheme
+                    if "narrower_than" in concept_scheme:
+
+                        general_concept_scheme = concept_scheme["narrower_than"][0]
+                        vocab_properties["general"] |= {general_concept_scheme["pref_label"]: value}
+                
+                else:
+
+                    return {"error": True, "reason": f"{value} not in {term}"}
+
+            else:
+
+                return {"error": True, "reason": f"{value} not in {request.namespace}"}
+
+        else:
+
+            vocab_properties["unspecified_vocab"] |= {term: value}
+
+    return {"error": False, "result": vocab_properties}
+
+
+def indexer_lenient(request: IndexerRequest) -> dict:
+
+    vocab_properties = defaultdict(dict)
+
+    for term, value in request.properties.items():
+
+        if term in request.terms:
+
+            query = f"""
+                SELECT ?uri
+                WHERE {{
+                    {{
+                        ?uri rdf:type skos:ConceptScheme .
+                        FILTER (STR(?uri) = "{request.namespace}/{term}")
+                    }}
+                }}
+            """
+
+            query_result = sparql_query(query)
+
+            if result := query_result["result"]:
+
+                concept_scheme = result[0]
+
+                vocab_properties[request.namespace] |= {term: value}
+
+                # Check if the concept scheme has a general scheme
+                if "narrower_than" in concept_scheme:
+
+                    general_concept_scheme = concept_scheme["narrower_than"][0]
+                    vocab_properties["general"] |= {general_concept_scheme["pref_label"]: value}
+            
+            else:
+
+                return {"error": True, "reason": f"{term} not in {request.namespace}"}
+
+        else:
+
+            vocab_properties["unspecified_vocab"] |= {term: value}
+
+    return {"error": False, "result": vocab_properties}

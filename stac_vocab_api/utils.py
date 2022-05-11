@@ -357,7 +357,7 @@ def indexer_strict(request: IndexerRequest) -> dict:
                 WHERE {{
                     {{
                         ?uri rdf:type skos:Concept .
-                        FILTER (STR(?uri) = "{request.namespace}/{value}")
+                        FILTER (STR(?uri) = "{request.namespace}:{value}")
                     }}
                 }}
             """
@@ -382,7 +382,7 @@ def indexer_strict(request: IndexerRequest) -> dict:
                 concept = result[0]
 
                 # Check if the concept is in a scheme could use pref_label? concept["in_scheme"]["pref_label"].value
-                if "in_scheme" in concept and term == concept["in_scheme"]["uri"].removeprefix(f"{request.namespace}/"):
+                if "in_scheme" in concept and term == concept["in_scheme"]["uri"].removeprefix(f"{request.namespace}:"):
 
                     concept_scheme = concept["in_scheme"]
                     vocab_properties[request.namespace] |= {term: value}
@@ -421,7 +421,7 @@ def indexer_lenient(request: IndexerRequest) -> dict:
                 WHERE {{
                     {{
                         ?uri rdf:type skos:ConceptScheme .
-                        FILTER (STR(?uri) = "{request.namespace}/{term}")
+                        FILTER (STR(?uri) = "{request.namespace}:{term}")
                     }}
                 }}
             """

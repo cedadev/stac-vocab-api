@@ -14,7 +14,7 @@ from os import path
 
 
 DEBUG = False
-APP_DIR = path.dirname(path.dirname(path.realpath(__file__)))
+APP_DIR = os.environ.get("APP_DIR")
 LOGFILE = path.join(APP_DIR, "cache", "stac_vocab_api.log")
 CACHE_FILE = path.join(APP_DIR, "cache", "GRAPH.p")
 CEDA_VOCAB_LOCATION = os.environ.get("CEDA_VOCAB_LOCATION")

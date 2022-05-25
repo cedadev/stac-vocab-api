@@ -9,8 +9,18 @@ __license__ = 'BSD - see LICENSE file in top-level package directory'
 __contact__ = 'rhys.r.evans@stfc.ac.uk'
 
 from fastapi import FastAPI
+
 from . import _config as config
-from .utils import *
+
+from .utils import (
+    IndexerRequest,
+    get_concept_from_uri, 
+    get_concept_scheme,
+    get_concept_scheme_concepts,
+    indexer_lenient,
+    indexer_strict,
+    sparql_query
+)
 
 
 app = FastAPI()
@@ -107,7 +117,7 @@ async def concept_scheme_search(input: str):
 
 @app.get("/concept/")
 async def concept(uri: str):
-    return get_concept(uri)
+    return get_concept_from_uri(uri)
 
 
 @app.get("/conceptScheme/")
@@ -120,4 +130,13 @@ async def concept_scheme_concepts(uri: str):
     return get_concept_scheme_concepts(uri)
 
 
-# Return list more than one and then weight 
+@app.post("/indexer/search/")
+async def indexer_search(indexer_request: IndexerRequest):
+
+    if indexer_request.strict:
+
+        return indexer_strict(indexer_request)
+
+    else:
+
+        return indexer_lenient(indexer_request)
